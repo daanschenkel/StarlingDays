@@ -46,6 +46,8 @@
 <script>
   var unmute = setInterval(function(){
     $("myVideo").prop('muted', false);
+       const videoElement = document.getElementById('myVideo');
+       videoElement.muted = !videoElement.muted;
       if( $("video").prop('muted') ){
       clearInterval(unmute);
       }
