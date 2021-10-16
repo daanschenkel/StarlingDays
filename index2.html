@@ -113,11 +113,7 @@ html {
 </style>
 <script>
   function scrollteam(){
-    window.scrollTo({
-  top: 550,
-  left: 0,
-  behavior: 'smooth'
-});
+    document.getElementById("row").scrollIntoView({behavior: "smooth"});
   }
 </script>
 </head>
@@ -135,7 +131,7 @@ html {
   </div>
 </div>
 <div class="seperator1"></div>
-<div class="row">
+<div class="row" id="row">
     <div class="column">
       <div class="card">
         <img src="https://cdn.statically.io/img/starlingdays.com/img/team/edwin.jpg" alt="Edwin" style="width:100%">
