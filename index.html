@@ -50,7 +50,9 @@ setInterval(function(){
     var video=document.getElementById("myVideo");
     video.play();
     video.muted = false; 
-
+    if (video.muted === true) {    
+       video.play()
+    }
 }, 500);
 </script>
 </html>
