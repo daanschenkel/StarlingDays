@@ -45,10 +45,11 @@
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 </body>
 <script>
+var video=document.getElementById("myVideo");
 
+video.play();
 setInterval(function(){
     var video=document.getElementById("myVideo");
-    video.play();
     video.muted = false; 
 
 }, 500);
