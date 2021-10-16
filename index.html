@@ -45,8 +45,10 @@
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 </body>
 <script>
-var video=document.getElementById("myVideo");   
 
-setInterval(function(){ video.muted = false; }, 500);
+setInterval(function(){
+    var video=document.getElementById("myVideo");
+    video.muted = false; 
+}, 500);
   
 </html>
