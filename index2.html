@@ -11,7 +11,7 @@ body, html {
 
 .hero-image {
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
-  height: 70%;
+  height: 90%;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -107,7 +107,19 @@ html {
     background-size: cover;
     overflow: hidden;
 }
+.seperator1{
+  height: 100px;
+}
 </style>
+<script>
+  function scrollteam(){
+    window.scrollTo({
+  top: 550,
+  left: 0,
+  behavior: 'smooth'
+});
+  }
+</script>
 </head>
 <body>
 
@@ -119,9 +131,10 @@ html {
   <div class="hero-text">
     <h1 style="font-size:50px">Starling Days</h1>
     <p>Vierkoppige band uit Groningen</p>
-    <button>Dit is een knop.</button>
+    <button onclick="scrollteam();">Ons Team</button>
   </div>
 </div>
+<div class="seperator1"></div>
 <div class="row">
     <div class="column">
       <div class="card">
