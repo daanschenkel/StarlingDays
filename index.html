@@ -45,15 +45,17 @@
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 </body>
 <script>
+
+function unm(){
 var video=document.getElementById("myVideo");
-setInterval(function(){
-    var video=document.getElementById("myVideo");
-    video.play();
-    video.muted = false; 
-    if (video.muted === true) {
-       video.muted = true; 
-       video.play()
-    }
-}, 1000);
+video.muted = false; 
+video.play();
+}
+unm();
+$(document).on('click', function (e) {
+    unm();
+}
+document.addEventListener('touchmove',unm);
+
 </script>
 </html>
