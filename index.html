@@ -43,28 +43,6 @@
         <h1>COMING SOON</h1>
     </div>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-<script>
-  var unmute = setInterval(function(){
-    $("myVideo").prop('muted', false);
-       const videoElement = document.getElementById('myVideo');
-       videoElement.muted = !videoElement.muted;
-      if( $("video").prop('muted') ){
-      clearInterval(unmute);
-      }
-  }, 200);
-
-    $('body').on('click touchstart', function () {
-        const videoElement = document.getElementById('myVideo');
-        if (videoElement.playing) {
-            // video is already playing so do nothing
-        }
-        else {
-            // video is not playing
-            // so play video now
-            videoElement.play();
-        }
-});
-    </script>
 </body>
 
 </html>
