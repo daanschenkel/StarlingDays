@@ -463,3 +463,27 @@ html {
     left: 50%;
     right: 50%;
 }
+
+.tagembed-container {
+    position: absolute;
+    top: 0%;
+    left: 0%;
+}
+
+.backbtn {
+    position: fixed;
+    top: 5%;
+    left: 5%;
+    background-color: #2E4857;
+    color: gold;
+    font-size: 30px;
+    transform: rotate(10deg);
+    opacity: 80%;
+}
+
+.backbtn:hover {
+    color: gold;
+    background-color: #2E4857;
+    border-color: yellow;
+    opacity: 90%;
+}
