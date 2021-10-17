@@ -124,106 +124,7 @@ html {
     opacity: 80%;
 }
 
-@media (min-width: 840px) {
-    .btn1 {
-        position: absolute;
-        top: 40%;
-        left: 25%;
-        background-color: #2E4857;
-        color: gold;
-        font-size: 30px;
-        transform: rotate(10deg);
-        opacity: 80%;
-    }
-    .btn1:hover {
-        color: gold;
-        background-color: #2E4857;
-        border-color: yellow;
-        opacity: 90%;
-    }
-    .btn2 {
-        position: absolute;
-        top: 50%;
-        left: 25%;
-        background-color: #2E4857;
-        color: gold;
-        font-size: 30px;
-        transform: rotate(-10deg);
-        opacity: 80%;
-    }
-    .btn2:hover {
-        color: gold;
-        background-color: #2E4857;
-        border-color: yellow;
-        opacity: 90%;
-    }
-    .btn3 {
-        position: absolute;
-        top: 60%;
-        left: 25%;
-        background-color: #2E4857;
-        color: gold;
-        font-size: 30px;
-        transform: rotate(10deg);
-        opacity: 80%;
-    }
-    .btn3:hover {
-        color: gold;
-        background-color: #2E4857;
-        border-color: yellow;
-        opacity: 90%;
-    }
-    .btn4 {
-        position: absolute;
-        top: 40%;
-        left: 65%;
-        background-color: #2E4857;
-        color: gold;
-        font-size: 30px;
-        transform: rotate(10deg);
-        opacity: 80%;
-    }
-    .btn4:hover {
-        color: gold;
-        background-color: #2E4857;
-        border-color: yellow;
-        opacity: 90%;
-    }
-    .btn5 {
-        position: absolute;
-        top: 50%;
-        left: 65%;
-        background-color: #2E4857;
-        color: gold;
-        font-size: 30px;
-        transform: rotate(-10deg);
-        opacity: 80%;
-    }
-    .btn5:hover {
-        color: gold;
-        background-color: #2E4857;
-        border-color: yellow;
-        opacity: 90%;
-    }
-    .btn6 {
-        position: absolute;
-        top: 60%;
-        left: 65%;
-        background-color: #2E4857;
-        color: gold;
-        font-size: 30px;
-        transform: rotate(10deg);
-        opacity: 80%;
-    }
-    .btn6:hover {
-        color: gold;
-        background-color: #2E4857;
-        border-color: yellow;
-        opacity: 90%;
-    }
-}
-
-@media (max-width: 840px) {
+@media (min-width: 1px) {
     .middle {
         position: absolute;
         top: 50%;
@@ -336,8 +237,229 @@ html {
     }
 }
 
+@media (min-width: 480px) {
+    .btn1 {
+        position: absolute;
+        top: 35%;
+        left: 5%;
+        background-color: #2E4857;
+        color: gold;
+        font-size: 30px;
+        transform: rotate(10deg);
+        opacity: 80%;
+    }
+    .btn1:hover {
+        color: gold;
+        background-color: #2E4857;
+        border-color: yellow;
+        opacity: 90%;
+    }
+    .btn2 {
+        position: absolute;
+        top: 50%;
+        left: 15%;
+        background-color: #2E4857;
+        color: gold;
+        font-size: 30px;
+        transform: rotate(-10deg);
+        opacity: 80%;
+    }
+    .btn2:hover {
+        color: gold;
+        background-color: #2E4857;
+        border-color: yellow;
+        opacity: 90%;
+    }
+    .btn3 {
+        position: absolute;
+        top: 65%;
+        left: 15%;
+        background-color: #2E4857;
+        color: gold;
+        font-size: 30px;
+        transform: rotate(10deg);
+        opacity: 80%;
+    }
+    .btn3:hover {
+        color: gold;
+        background-color: #2E4857;
+        border-color: yellow;
+        opacity: 90%;
+    }
+    .btn4 {
+        position: absolute;
+        top: 30%;
+        left: 75%;
+        background-color: #2E4857;
+        color: gold;
+        font-size: 30px;
+        transform: rotate(10deg);
+        opacity: 80%;
+    }
+    .btn4:hover {
+        color: gold;
+        background-color: #2E4857;
+        border-color: yellow;
+        opacity: 90%;
+    }
+    .btn5 {
+        position: absolute;
+        top: 50%;
+        left: 67%;
+        background-color: #2E4857;
+        color: gold;
+        font-size: 30px;
+        transform: rotate(-10deg);
+        opacity: 80%;
+    }
+    .btn5:hover {
+        color: gold;
+        background-color: #2E4857;
+        border-color: yellow;
+        opacity: 90%;
+    }
+    .btn6 {
+        position: absolute;
+        top: 70%;
+        left: 65%;
+        background-color: #2E4857;
+        color: gold;
+        font-size: 30px;
+        transform: rotate(10deg);
+        opacity: 80%;
+    }
+    .btn6:hover {
+        color: gold;
+        background-color: #2E4857;
+        border-color: yellow;
+        opacity: 90%;
+    }
+    .middle {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        text-align: center;
+        color: gold;
+        background-image: url("https://firebasestorage.googleapis.com/v0/b/starlingdayssite.appspot.com/o/color.png?alt=media&token=696fe74f-1632-409d-a108-bdd1258ba1cc");
+        opacity: 80%;
+        z-index: 1;
+    }
+}
+
+@media (min-width: 600px) {
+    .btn1 {
+        position: absolute;
+        top: 40%;
+        left: 15%;
+        background-color: #2E4857;
+        color: gold;
+        font-size: 30px;
+        transform: rotate(10deg);
+        opacity: 80%;
+    }
+    .btn1:hover {
+        color: gold;
+        background-color: #2E4857;
+        border-color: yellow;
+        opacity: 90%;
+    }
+    .btn2 {
+        position: absolute;
+        top: 50%;
+        left: 20%;
+        background-color: #2E4857;
+        color: gold;
+        font-size: 30px;
+        transform: rotate(-10deg);
+        opacity: 80%;
+    }
+    .btn2:hover {
+        color: gold;
+        background-color: #2E4857;
+        border-color: yellow;
+        opacity: 90%;
+    }
+    .btn3 {
+        position: absolute;
+        top: 66%;
+        left: 25%;
+        background-color: #2E4857;
+        color: gold;
+        font-size: 30px;
+        transform: rotate(10deg);
+        opacity: 80%;
+    }
+    .btn3:hover {
+        color: gold;
+        background-color: #2E4857;
+        border-color: yellow;
+        opacity: 90%;
+    }
+    .btn4 {
+        position: absolute;
+        top: 40%;
+        left: 70%;
+        background-color: #2E4857;
+        color: gold;
+        font-size: 30px;
+        transform: rotate(10deg);
+        opacity: 80%;
+    }
+    .btn4:hover {
+        color: gold;
+        background-color: #2E4857;
+        border-color: yellow;
+        opacity: 90%;
+    }
+    .btn5 {
+        position: absolute;
+        top: 51%;
+        left: 70%;
+        background-color: #2E4857;
+        color: gold;
+        font-size: 30px;
+        transform: rotate(-10deg);
+        opacity: 80%;
+    }
+    .btn5:hover {
+        color: gold;
+        background-color: #2E4857;
+        border-color: yellow;
+        opacity: 90%;
+    }
+    .btn6 {
+        position: absolute;
+        top: 66%;
+        left: 65%;
+        background-color: #2E4857;
+        color: gold;
+        font-size: 30px;
+        transform: rotate(10deg);
+        opacity: 80%;
+    }
+    .btn6:hover {
+        color: gold;
+        background-color: #2E4857;
+        border-color: yellow;
+        opacity: 90%;
+    }
+    .middle {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        text-align: center;
+        color: gold;
+        background-image: url("https://firebasestorage.googleapis.com/v0/b/starlingdayssite.appspot.com/o/color.png?alt=media&token=696fe74f-1632-409d-a108-bdd1258ba1cc");
+        opacity: 80%;
+        z-index: 1;
+    }
+}
+
 .instagram {
     position: absolute;
     top: 90%;
-    left: 45%;
+    left: 50%;
+    right: 50%;
 }
