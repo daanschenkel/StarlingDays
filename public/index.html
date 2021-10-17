@@ -1,32 +1,63 @@
 <!DOCTYPE html>
 <html>
-<link rel="icon" type="image/png" href="https://firebasestorage.googleapis.com/v0/b/starlingdayssite.appspot.com/o/fav.png?alt=media&token=e62b0e4c-2ae9-406c-920b-d629655236f3">
-<link rel="stylesheet" href="style_cs.css">
 
+<head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/d07cd5c449.js" crossorigin="anonymous"></script>
 
-<body onmousedown="unm()">
-    <video autoplay muted playsinline loop id="myVideo">
-        <source src="https://firebasestorage.googleapis.com/v0/b/starlingdayssite.appspot.com/o/trailer.MP4?alt=media&token=426b5cc2-1dd4-4fc0-93df-cdd7651b92ae" type="video/mp4">
-        Your browser does not support HTML5 video.
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+
+    </style>
+    <script>
+        function scrollteam() {
+            document.getElementById("row").scrollIntoView({
+                behavior: "smooth"
+            });
+        }
+        $(window).on('beforeunload', function() {
+            $(window).scrollTop(0);
+        });
+    </script>
+</head>
+
+<body>
+
+    <div class="hero-image">
+        <video autoplay muted loop playsinline id="myVideo">
+        <source src="https://firebasestorage.googleapis.com/v0/b/starlingdayssite.appspot.com/o/banner.mp4?alt=media&token=caeebf95-e2d7-408a-8989-d99deb22b44a" type="video/mp4">
+        Error loading video.
+        
       </video>
+        <a class="instagram" href="https://instagr.am/starling_days"><img src="https://firebasestorage.googleapis.com/v0/b/starlingdayssite.appspot.com/o/instagram-removebg-preview.png?alt=media&token=1e68d7e7-aec6-4b73-bc6c-babcd119d6a6" width="50" height="50"></a>
+
+
+        <script>
+            function unm() {
+                var video = document.getElementById("myVideo");
+                video.muted = false;
+                video.play();
+            }
+            $(document).on('click', function(e) {
+                unm();
+            });
+            document.addEventListener('touchstart', unm);
+        </script>
+
+    </div>
 
     <div class="middle">
-        <img src="https://firebasestorage.googleapis.com/v0/b/starlingdayssite.appspot.com/o/logo.png?alt=media&token=616fd98b-0af3-410a-a794-9bcca018c0f1">
-        <h1>COMING SOON</h1>
-    </div>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <img src="https://firebasestorage.googleapis.com/v0/b/starlingdayssite.appspot.com/o/logo.png?alt=media&token=616fd98b-0af3-410a-a794-9bcca018c0f1" width="200" height="200">
 
+    </div>
+    <button class="btn1 btn btn-warning">Home</button>
+    <button class="btn2 btn btn-warning">Info</button>
+    <button class="btn3 btn btn-warning">Muziek</button>
+    <button class="btn4 btn btn-warning">Foto's</button>
+    <button class="btn5 btn btn-warning">Optredens</button>
+    <button class="btn6 btn btn-warning">Contact</button>
 </body>
-<script>
-    function unm() {
-        var video = document.getElementById("myVideo");
-        video.muted = false;
-        video.play();
-    }
-    $(document).on('click', function(e) {
-        unm();
-    });
-    document.addEventListener('touchstart', unm);
-</script>
 
 </html>
