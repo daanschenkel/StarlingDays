@@ -2,7 +2,7 @@ body,
 html {
     height: 100%;
     margin: 0;
-    background-image: url("https://firebasestorage.googleapis.com/v0/b/starlingdayssite.appspot.com/o/color.png?alt=media&token=696fe74f-1632-409d-a108-bdd1258ba1cc");
+    background-image: url("media/color.png?alt=media&token=696fe74f-1632-409d-a108-bdd1258ba1cc");
 }
 
 .middle {
@@ -12,7 +12,7 @@ html {
     transform: translate(-50%, -50%);
     text-align: center;
     color: gold;
-    background-image: url("https://firebasestorage.googleapis.com/v0/b/starlingdayssite.appspot.com/o/color.png?alt=media&token=696fe74f-1632-409d-a108-bdd1258ba1cc");
+    background-image: url("media/color.png?alt=media&token=696fe74f-1632-409d-a108-bdd1258ba1cc");
     opacity: 0.6;
 }
 
