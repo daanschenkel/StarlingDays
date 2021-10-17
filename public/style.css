@@ -124,110 +124,200 @@ html {
     opacity: 80%;
 }
 
-.btn1 {
-    position: absolute;
-    top: 40%;
-    left: 25%;
-    background-color: #2E4857;
-    color: gold;
-    font-size: 30px;
-    transform: rotate(10deg);
-    opacity: 80%;
+@media (min-width: 840px) {
+    .btn1 {
+        position: absolute;
+        top: 40%;
+        left: 25%;
+        background-color: #2E4857;
+        color: gold;
+        font-size: 30px;
+        transform: rotate(10deg);
+        opacity: 80%;
+    }
+    .btn1:hover {
+        color: gold;
+        background-color: #2E4857;
+        border-color: yellow;
+        opacity: 90%;
+    }
+    .btn2 {
+        position: absolute;
+        top: 50%;
+        left: 25%;
+        background-color: #2E4857;
+        color: gold;
+        font-size: 30px;
+        transform: rotate(-10deg);
+        opacity: 80%;
+    }
+    .btn2:hover {
+        color: gold;
+        background-color: #2E4857;
+        border-color: yellow;
+        opacity: 90%;
+    }
+    .btn3 {
+        position: absolute;
+        top: 60%;
+        left: 25%;
+        background-color: #2E4857;
+        color: gold;
+        font-size: 30px;
+        transform: rotate(10deg);
+        opacity: 80%;
+    }
+    .btn3:hover {
+        color: gold;
+        background-color: #2E4857;
+        border-color: yellow;
+        opacity: 90%;
+    }
+    .btn4 {
+        position: absolute;
+        top: 40%;
+        left: 65%;
+        background-color: #2E4857;
+        color: gold;
+        font-size: 30px;
+        transform: rotate(10deg);
+        opacity: 80%;
+    }
+    .btn4:hover {
+        color: gold;
+        background-color: #2E4857;
+        border-color: yellow;
+        opacity: 90%;
+    }
+    .btn5 {
+        position: absolute;
+        top: 50%;
+        left: 65%;
+        background-color: #2E4857;
+        color: gold;
+        font-size: 30px;
+        transform: rotate(-10deg);
+        opacity: 80%;
+    }
+    .btn5:hover {
+        color: gold;
+        background-color: #2E4857;
+        border-color: yellow;
+        opacity: 90%;
+    }
+    .btn6 {
+        position: absolute;
+        top: 60%;
+        left: 65%;
+        background-color: #2E4857;
+        color: gold;
+        font-size: 30px;
+        transform: rotate(10deg);
+        opacity: 80%;
+    }
+    .btn6:hover {
+        color: gold;
+        background-color: #2E4857;
+        border-color: yellow;
+        opacity: 90%;
+    }
 }
 
-.btn1:hover {
-    color: gold;
-    background-color: #2E4857;
-    border-color: yellow;
-    opacity: 90%;
-}
-
-.btn2 {
-    position: absolute;
-    top: 50%;
-    left: 25%;
-    background-color: #2E4857;
-    color: gold;
-    font-size: 30px;
-    transform: rotate(-10deg);
-    opacity: 80%;
-}
-
-.btn2:hover {
-    color: gold;
-    background-color: #2E4857;
-    border-color: yellow;
-    opacity: 90%;
-}
-
-.btn3 {
-    position: absolute;
-    top: 60%;
-    left: 25%;
-    background-color: #2E4857;
-    color: gold;
-    font-size: 30px;
-    transform: rotate(10deg);
-    opacity: 80%;
-}
-
-.btn3:hover {
-    color: gold;
-    background-color: #2E4857;
-    border-color: yellow;
-    opacity: 90%;
-}
-
-.btn4 {
-    position: absolute;
-    top: 40%;
-    left: 65%;
-    background-color: #2E4857;
-    color: gold;
-    font-size: 30px;
-    transform: rotate(10deg);
-    opacity: 80%;
-}
-
-.btn4:hover {
-    color: gold;
-    background-color: #2E4857;
-    border-color: yellow;
-    opacity: 90%;
-}
-
-.btn5 {
-    position: absolute;
-    top: 50%;
-    left: 65%;
-    background-color: #2E4857;
-    color: gold;
-    font-size: 30px;
-    transform: rotate(-10deg);
-    opacity: 80%;
-}
-
-.btn5:hover {
-    color: gold;
-    background-color: #2E4857;
-    border-color: yellow;
-    opacity: 90%;
-}
-
-.btn6 {
-    position: absolute;
-    top: 60%;
-    left: 65%;
-    background-color: #2E4857;
-    color: gold;
-    font-size: 30px;
-    transform: rotate(10deg);
-    opacity: 80%;
-}
-
-.btn6:hover {
-    color: gold;
-    background-color: #2E4857;
-    border-color: yellow;
-    opacity: 90%;
+@media (max-width: 840px) {
+    .btn1 {
+        position: absolute;
+        top: 40%;
+        left: 10%;
+        background-color: #2E4857;
+        color: gold;
+        font-size: 30px;
+        transform: rotate(10deg);
+        opacity: 80%;
+    }
+    .btn1:hover {
+        color: gold;
+        background-color: #2E4857;
+        border-color: yellow;
+        opacity: 90%;
+    }
+    .btn2 {
+        position: absolute;
+        top: 50%;
+        left: 10%;
+        background-color: #2E4857;
+        color: gold;
+        font-size: 30px;
+        transform: rotate(-10deg);
+        opacity: 80%;
+    }
+    .btn2:hover {
+        color: gold;
+        background-color: #2E4857;
+        border-color: yellow;
+        opacity: 90%;
+    }
+    .btn3 {
+        position: absolute;
+        top: 60%;
+        left: 10%;
+        background-color: #2E4857;
+        color: gold;
+        font-size: 30px;
+        transform: rotate(10deg);
+        opacity: 80%;
+    }
+    .btn3:hover {
+        color: gold;
+        background-color: #2E4857;
+        border-color: yellow;
+        opacity: 90%;
+    }
+    .btn4 {
+        position: absolute;
+        top: 40%;
+        left: 70%;
+        background-color: #2E4857;
+        color: gold;
+        font-size: 30px;
+        transform: rotate(10deg);
+        opacity: 80%;
+    }
+    .btn4:hover {
+        color: gold;
+        background-color: #2E4857;
+        border-color: yellow;
+        opacity: 90%;
+    }
+    .btn5 {
+        position: absolute;
+        top: 50%;
+        left: 70%;
+        background-color: #2E4857;
+        color: gold;
+        font-size: 30px;
+        transform: rotate(-10deg);
+        opacity: 80%;
+    }
+    .btn5:hover {
+        color: gold;
+        background-color: #2E4857;
+        border-color: yellow;
+        opacity: 90%;
+    }
+    .btn6 {
+        position: absolute;
+        top: 60%;
+        left: 70%;
+        background-color: #2E4857;
+        color: gold;
+        font-size: 30px;
+        transform: rotate(10deg);
+        opacity: 80%;
+    }
+    .btn6:hover {
+        color: gold;
+        background-color: #2E4857;
+        border-color: yellow;
+        opacity: 90%;
+    }
 }
