@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <script>
+        function scrollteam() {
+            document.getElementById("row").scrollIntoView({
+                behavior: "smooth"
+            });
+        }
+        $(window).on('beforeunload', function() {
+            $(window).scrollTop(0);
+        });
+    </script>
+</head>
+
+<body>
+
+    <div class="hero-image">
+        <video autoplay muted loop playsinline id="myVideo">
+        <source src="https://firebasestorage.googleapis.com/v0/b/starlingdayssite.appspot.com/o/banner.mp4?alt=media&token=caeebf95-e2d7-408a-8989-d99deb22b44a" type="video/mp4">
+        Error loading video.
+      </video>
+
+        <script>
+            function unm() {
+                var video = document.getElementById("myVideo");
+                video.muted = false;
+                video.play();
+            }
+            $(document).on('click', function(e) {
+                unm();
+            });
+            document.addEventListener('touchstart', unm);
+        </script>
+        <div class="hero-text">
+            <h1 style="font-size:50px">Ons team</h1>
+            <div class="row" id="row">
+                <div class="column">
+                    <div class="card">
+                        <img src="https://firebasestorage.googleapis.com/v0/b/starlingdayssite.appspot.com/o/edwin.jpg?alt=media&token=4a33a50f-7a19-4efb-8b11-0215ef47d39f" alt="Edwin" style="width:100%">
+                        <div class="container">
+                            <h2>Edwin</h2>
+                            <p class="title">Zang</p>
+                            <p>Hier volgt verdere informatie.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="column">
+                        <div class="card">
+                            <img src="https://firebasestorage.googleapis.com/v0/b/starlingdayssite.appspot.com/o/eric.jpg?alt=media&token=b6d41a85-4216-4c01-a5cb-db784107e29b" alt="Eric" style="width:100%">
+                            <div class="container">
+                                <h2>Eric</h2>
+                                <p class="title">Toetsen</p>
+                                <p>Hier volgt verdere informatie.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="column">
+                            <div class="card">
+                                <img src="https://firebasestorage.googleapis.com/v0/b/starlingdayssite.appspot.com/o/karin.jpg?alt=media&token=9a12b504-b541-477d-bff1-f3756ff6cf9e" alt="Karin" style="width:100%">
+                                <div class="container">
+                                    <h2>Karin</h2>
+                                    <p class="title">Bas</p>
+                                    <p>Hier volgt verdere informatie.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="column">
+                                <div class="card">
+                                    <img src="https://firebasestorage.googleapis.com/v0/b/starlingdayssite.appspot.com/o/folkert.jpg?alt=media&token=80a010e5-f59d-4989-8e03-5c009801500d" alt="Folkert" style="width:100%">
+                                    <div class="container">
+                                        <h2>Folkert</h2>
+                                        <p class="title">Drums</p>
+                                        <p>Hier volgt verdere informatie.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <button onclick="scrollteam();">Terug</button>
+                    </div>
+                </div>
+</body>
+
+</html>
