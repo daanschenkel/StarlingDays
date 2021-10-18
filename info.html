@@ -3,7 +3,10 @@
 
 <head>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="media/buttons/css/bootstrap.min.css">
+
     <link rel="stylesheet" href="style.css">
+
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <script>
@@ -12,13 +15,24 @@
                 behavior: "smooth"
             });
         }
+        $(document).ready(function() {
+            window.scrollTo(0, document.body.scrollHeight);
+        });
         $(window).on('beforeunload', function() {
-            $(window).scrollTop(0);
+            window.scrollTo(0, document.body.scrollHeight);
+
         });
     </script>
+    <style>
+        body {
+            overflow-y: hidden;
+            overflow-x: hidden;
+        }
+    </style>
 </head>
 
 <body>
+    <button onclick="window.location.href='/'" class="backbtn btn btn-warning">Terug</button>
 
     <div class="hero-image">
         <video autoplay muted loop playsinline id="myVideo">
@@ -36,26 +50,14 @@
             });
             document.addEventListener('touchstart', unm);
         </script>
-
-        <div class="row" id="row">
-            <div class="column">
-                <div class="card">
-                    <img src="https://starlingdays.com/media/edwin.jpg?alt=media&token=4a33a50f-7a19-4efb-8b11-0215ef47d39f" alt="Edwin" style="width:100%">
-                    <div class="container">
-                        <h2>Edwin</h2>
-                        <p class="title">Zang</p>
-                        <p>Hier volgt verdere informatie.</p>
-                    </div>
-                </div>
-            </div>
-
-            <div class="row">
+        <div class="team-container">
+            <div class="row" id="row">
                 <div class="column">
                     <div class="card">
-                        <img src="https://starlingdays.com/media/eric.jpg?alt=media&token=b6d41a85-4216-4c01-a5cb-db784107e29b" alt="Eric" style="width:100%">
+                        <img src="https://starlingdays.com/media/team/edwin.jpg?alt=media&token=4a33a50f-7a19-4efb-8b11-0215ef47d39f" alt="Edwin" style="width:100%">
                         <div class="container">
-                            <h2>Eric</h2>
-                            <p class="title">Toetsen</p>
+                            <h2>Edwin</h2>
+                            <p class="title">Zang</p>
                             <p>Hier volgt verdere informatie.</p>
                         </div>
                     </div>
@@ -64,27 +66,41 @@
                 <div class="row">
                     <div class="column">
                         <div class="card">
-                            <img src="https://starlingdays.com/media/karin.jpg?alt=media&token=9a12b504-b541-477d-bff1-f3756ff6cf9e" alt="Karin" style="width:100%">
+                            <img src="https://starlingdays.com/media/team/eric.jpg?alt=media&token=b6d41a85-4216-4c01-a5cb-db784107e29b" alt="Eric" style="width:100%">
                             <div class="container">
-                                <h2>Karin</h2>
-                                <p class="title">Bas</p>
+                                <h2>Eric</h2>
+                                <p class="title">Toetsen</p>
                                 <p>Hier volgt verdere informatie.</p>
                             </div>
                         </div>
                     </div>
+
                     <div class="row">
                         <div class="column">
                             <div class="card">
-                                <img src="https://starlingdays.com/media/folkert.jpg?alt=media&token=80a010e5-f59d-4989-8e03-5c009801500d" alt="Folkert" style="width:100%">
+                                <img src="https://starlingdays.com/media/team/karin.jpg?alt=media&token=9a12b504-b541-477d-bff1-f3756ff6cf9e" alt="Karin" style="width:100%">
                                 <div class="container">
-                                    <h2>Folkert</h2>
-                                    <p class="title">Drums</p>
+                                    <h2>Karin</h2>
+                                    <p class="title">Bas</p>
                                     <p>Hier volgt verdere informatie.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="column">
+                                <div class="card">
+                                    <img src="https://starlingdays.com/media/team/folkert.jpg?alt=media&token=80a010e5-f59d-4989-8e03-5c009801500d" alt="Folkert" style="width:100%">
+                                    <div class="container">
+                                        <h2>Folkert</h2>
+                                        <p class="title">Drums</p>
+                                        <p>Hier volgt verdere informatie.</p>
+                                    </div>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
+
 </body>
 
 </html>
