@@ -630,3 +630,48 @@ html {
         opacity: 90%;
     }
 }
+
+@media (max-height:700px) {
+    .btn1-contact {
+        position: absolute;
+        top: 75%;
+        left: 10%;
+        background-color: #2E4857;
+        color: gold;
+        font-size: 30px;
+        transform: rotate(10deg);
+        opacity: 80%;
+    }
+    .btn1-contact:hover {
+        color: gold;
+        background-color: #2E4857;
+        border-color: yellow;
+        opacity: 90%;
+    }
+    .btn2-contact {
+        position: absolute;
+        top: 80%;
+        left: 50%;
+        background-color: #2E4857;
+        color: gold;
+        font-size: 30px;
+        transform: rotate(-10deg);
+        opacity: 80%;
+    }
+    .btn3-contact {
+        position: absolute;
+        top: 20%;
+        left: 40%;
+        background-color: #2E4857;
+        color: gold;
+        font-size: 30px;
+        transform: rotate(-10deg);
+        opacity: 80%;
+    }
+    .btn3-contact:hover {
+        color: gold;
+        background-color: #2E4857;
+        border-color: yellow;
+        opacity: 90%;
+    }
+}
