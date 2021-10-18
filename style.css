@@ -464,6 +464,13 @@ html {
     right: 50%;
 }
 
+.facebook {
+    position: absolute;
+    top: 90%;
+    left: 44%;
+    right: 50%;
+}
+
 .tagembed-container {
     position: absolute;
     top: 0%;
