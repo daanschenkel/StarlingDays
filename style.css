@@ -137,7 +137,7 @@
             
             .middle2 {
                 position: absolute;
-                top: 20%;
+                top: 25%;
                 left: 50%;
                 transform: translate(-50%, -50%);
                 text-align: center;
@@ -167,6 +167,18 @@
                 background-color: #2E4857;
                 border-color: yellow;
                 opacity: 90%;
+            }
+            
+            .music {
+                position: absolute;
+                top: 60%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+                text-align: center;
+                color: gold;
+                background-image: url("https://starlingdays.com/media/color.png?alt=media&token=696fe74f-1632-409d-a108-bdd1258ba1cc");
+                opacity: 80%;
+                z-index: 1;
             }
             
             @media (min-width: 1px) {
