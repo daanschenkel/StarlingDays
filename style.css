@@ -154,6 +154,14 @@
                 opacity: 80%;
             }
             
+            .tickettext1 {
+                transform: rotate(-10deg);
+            }
+            
+            .tickettext2 {
+                transform: rotate(-10deg);
+            }
+            
             .ticketbutton:hover {
                 color: gold;
                 background-color: #2E4857;
