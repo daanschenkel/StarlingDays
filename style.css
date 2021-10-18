@@ -458,17 +458,15 @@ html {
 }
 
 .instagram {
-    position: absolute;
-    top: 90%;
-    left: 50%;
-    right: 50%;
+    position: relative;
+    top: -10%;
+    left: 45%;
 }
 
 .facebook {
-    position: absolute;
-    top: 90%;
-    left: 44%;
-    right: 50%;
+    position: relative;
+    top: -10%;
+    left: 50%;
 }
 
 .tagembed-container {
