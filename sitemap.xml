@@ -6,12 +6,7 @@
 		<lastmod>2021-10-18</lastmod>
 	</url>
 	<url>
-		<loc>https://www.starlingdays.com/git/StarlingDays/info.html</loc>
-		<priority>0.25</priority>
-		<lastmod>2021-10-19</lastmod>
-	</url>
-	<url>
-		<loc>https://www.starlingdays.com/git/StarlingDays/index2.html</loc>
+		<loc>https://www.starlingdays.com/git/StarlingDays/404.html</loc>
 		<priority>0.25</priority>
 		<lastmod>2021-10-17</lastmod>
 	</url>
@@ -21,8 +16,13 @@
 		<lastmod>2021-10-17</lastmod>
 	</url>
 	<url>
-		<loc>https://www.starlingdays.com/git/StarlingDays/404.html</loc>
+		<loc>https://www.starlingdays.com/git/StarlingDays/index2.html</loc>
 		<priority>0.25</priority>
 		<lastmod>2021-10-17</lastmod>
+	</url>
+	<url>
+		<loc>https://www.starlingdays.com/git/StarlingDays/info.html</loc>
+		<priority>0.25</priority>
+		<lastmod>2021-10-19</lastmod>
 	</url>
 </urlset>
