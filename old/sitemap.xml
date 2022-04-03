@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+	<url>
+		<loc>https://www.starlingdays.com/git/StarlingDays</loc>
+		<priority>0.50</priority>
+		<lastmod>2021-10-18</lastmod>
+	</url>
+	<url>
+		<loc>https://www.starlingdays.com/git/StarlingDays/404.html</loc>
+		<priority>0.25</priority>
+		<lastmod>2021-10-17</lastmod>
+	</url>
+	<url>
+		<loc>https://www.starlingdays.com/git/StarlingDays/fotos.html</loc>
+		<priority>0.25</priority>
+		<lastmod>2021-10-17</lastmod>
+	</url>
+	<url>
+		<loc>https://www.starlingdays.com/git/StarlingDays/index2.html</loc>
+		<priority>0.25</priority>
+		<lastmod>2021-10-17</lastmod>
+	</url>
+	<url>
+		<loc>https://www.starlingdays.com/git/StarlingDays/info.html</loc>
+		<priority>0.25</priority>
+		<lastmod>2021-10-19</lastmod>
+	</url>
+</urlset>

@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="media/buttons/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <script>
+        function scrollteam() {
+            document.getElementById("row").scrollIntoView({
+                behavior: "smooth"
+            });
+        }
+        $(document).ready(function() {
+            if ($(window).width() > 649) {
+
+                window.scrollTo(0, document.body.scrollHeight);
+            } else {
+                window.scrollTo(0, 0);
+
+            }
+        });
+        $(window).on('beforeunload', function() {
+            if ($(window).width() > 649) {
+                window.scrollTo(0, document.body.scrollHeight);
+            } else {
+                window.scrollTo(0, 0);
+
+            }
+        });
+        window.onresize = function() {
+            if ($(window).width() > 649) {
+                window.scrollTo(0, document.body.scrollHeight);
+            } else {
+                window.scrollTo(0, 0);
+
+            }
+        }
+    </script>
+    <style>
+        body {
+            overflow-y: hidden;
+            overflow-x: hidden;
+            background-image: url('media/color.png')
+        }
+        
+        .hero-image {
+            height: 50%;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            position: relative;
+        }
+    </style>
+</head>
+
+<body>
+    <button onclick="window.location.href='/'" class="backbtn btn btn-warning">Terug</button>
+
+    <div class="hero-image">
+        <video autoplay muted loop playsinline id="myVideo">
+        <source src="https://drive.google.com/uc?export=download&id=1vqXbNc2xG1ZIIVGTATILrl2PFd2T-NtR" type="video/mp4">
+        Error loading video.
+      </video>
+        <script>
+            function unm() {
+                var video = document.getElementById("myVideo");
+                video.muted = false;
+                video.play();
+            }
+            $(document).on('click', function(e) {
+                unm();
+            });
+            document.addEventListener('touchstart', unm);
+        </script>
+        <style>
+            @media screen and (max-width: 650px) {
+                .column {
+                    width: 100%;
+                    display: block;
+                }
+                body {
+                    overflow-x: hidden;
+                    overflow-y: visible;
+                    font-family: Arial, Helvetica, sans-serif;
+                }
+            }
+        </style>
+        <style>
+            html {
+                box-sizing: border-box;
+                background-image: url('./media/color.png');
+            }
+            
+            *,
+            *:before,
+            *:after {
+                box-sizing: inherit;
+            }
+            
+            .column {
+                float: left;
+                width: 25%;
+                margin-bottom: 16px;
+                padding: 0 8px;
+            }
+            
+            @media screen and (max-width: 650px) {
+                .column {
+                    width: 100%;
+                    display: block;
+                }
+            }
+            
+            .card {
+                box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+            }
+            
+            .container {
+                padding: 0 16px;
+                color: gold;
+            }
+            
+            .container::after,
+            .row::after {
+                content: "";
+                clear: both;
+                display: table;
+            }
+            
+            .title {
+                color: goldenrod;
+            }
+            
+            .button {
+                border: none;
+                outline: 0;
+                display: inline-block;
+                padding: 8px;
+                color: white;
+                background-color: #000;
+                text-align: center;
+                cursor: pointer;
+                width: 100%;
+            }
+            
+            .button:hover {
+                background-color: #555;
+            }
+            
+            .infoText {
+                text-align: center;
+                color: gold;
+            }
+        </style>
+        </head>
+
+        <body>
+            <h1 class="infoText">Sfeervolle melodieuze luisterliedjes. Ingetogen met een vleugje melancholie. Eigenzinnig en oprecht.</h1>
+
+            <div class="row">
+                <div class="column">
+                    <div class="card">
+                        <img src="media/team/edwin.jpg" alt="Jane" style="width:100%">
+                        <div class="container">
+                            <h3>Edwin</h3>
+                            <p class="title">ZANG & GITAAR</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="column">
+                    <div class="card">
+                        <img src="media/team/eric.jpg" alt="Mike" style="width:100%">
+                        <div class="container">
+                            <h3>Eric</h3>
+                            <p class="title">TOETSEN & ACCORDEON</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="column">
+                    <div class="card">
+                        <img src="media/team/folkert.jpg" alt="John" style="width:100%">
+                        <div class="container">
+                            <h3>Folkert</h3>
+                            <p class="title">DRUMS</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="column">
+                    <div class="card">
+                        <img src="media/team/karin.jpg" alt="John" style="width:100%">
+                        <div class="container">
+                            <h3>Karin</h3>
+                            <p class="title">BAS</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </body>
+
+</html>

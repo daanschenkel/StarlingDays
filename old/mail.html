@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/d07cd5c449.js" crossorigin="anonymous"></script>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+
+    </style>
+    <script>
+        function scrollteam() {
+            document.getElementById("row").scrollIntoView({
+                behavior: "smooth"
+            });
+        }
+        $(window).on('beforeunload', function() {
+            $(window).scrollTop(0);
+        });
+    </script>
+</head>
+
+<body>
+
+    <div class="hero-image">
+        <video autoplay muted loop playsinline id="myVideo">
+        <source src="https://drive.google.com/uc?export=download&id=1vqXbNc2xG1ZIIVGTATILrl2PFd2T-NtR" type="video/mp4">
+        Error loading video.
+        
+      </video>
+
+
+        <script>
+            function unm() {
+                var video = document.getElementById("myVideo");
+                video.muted = false;
+                video.play();
+            }
+            $(document).on('click', function(e) {
+                unm();
+            });
+            document.addEventListener('touchstart', unm);
+        </script>
+
+    </div>
+
+    <div class="middle">
+        <h1 class="hero-text">
+            <form name="contact" method="POST" data-netlify="true">
+                <p>
+                    <label>Naam: <input type="text" name="name" /></label>
+                </p>
+                <p>
+                    <label>Email: <input type="email" name="email" /></label>
+                </p>
+                <p>
+                    <label>Bericht: <textarea name="message"></textarea></label>
+                </p>
+                <div data-netlify-recaptcha="true"></div>
+
+                <p>
+                    <button type="submit">Send</button>
+                </p>
+            </form>
+        </h1>
+    </div>
+    <button onclick="window.location.href='/contact'" class="backbtn btn btn-warning">Terug</button>
+    <style>
+        body {
+            height: 100%;
+            overflow-y: hidden;
+        }
+    </style>
+    <!--   <a class="instagram" target="_blank" href="https://instagr.am/starling_days"><img src="https://instagram.com/favicon.ico" width="50" height="50"></a>
+    <a class="facebook" target="_blank" href="https://fb.me/StarlingDays"><img src="https://facebook.com/favicon.ico" width="50" height="50"></a>
+ -->
+</body>
+
+</html>
