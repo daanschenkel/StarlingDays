@@ -43,28 +43,34 @@
 
 @media (max-width: 767px) {
   .u-section-1 .u-sheet-1 {
-    min-height: 353px;
+    min-height: 674px;
+  }
+
+  .u-section-1 .u-text-1 {
+    width: auto;
+    margin-top: 60px;
   }
 
   .u-section-1 .u-text-2 {
-    width: 540px;
+    width: auto;
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  .u-section-1 .u-custom-html-1 {
+    height: auto;
+    min-height: 25px;
   }
 
   .u-section-1 .u-text-3 {
-    width: 540px;
+    width: auto;
+    margin-left: 0;
+    margin-right: 0;
   }
 }
 
 @media (max-width: 575px) {
   .u-section-1 .u-sheet-1 {
-    min-height: 222px;
-  }
-
-  .u-section-1 .u-text-2 {
-    width: 340px;
-  }
-
-  .u-section-1 .u-text-3 {
-    width: 340px;
+    min-height: 424px;
   }
 }

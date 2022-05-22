@@ -61,7 +61,7 @@
 
 .u-section-2 .u-gallery-inner-1 {
   grid-template-columns: auto auto auto;
-  grid-gap: 0px 0px;
+  grid-gap: 10px 10px;
 }
 
 .u-section-2 .u-gallery-item-1 {
